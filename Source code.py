@@ -6,7 +6,7 @@ jumia= requests.get('https://www.jumia.com.ng/phones-tablets/')
 jumia.content
 
 name_info =[]
-price_info=[]
+price_info =[]
 Rating_info =[]
 
 for page in range (1,51):
